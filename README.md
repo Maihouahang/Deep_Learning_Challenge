@@ -15,8 +15,8 @@ This analysis is about training a deep learning model to predict whether an orga
     * Income amount
     * Special considerations
 * What variable(s) should be removed from the input data because they are neither targets nor features?
-  * So we removed the EIN, which is a tax ID number.
-  * We also removed the NAME, which is the organization’s name. This doesn't affect funding decisions
+  * I removed the EIN, which is a tax ID number.
+  * I also removed the NAME, which is the organization’s name. This doesn't affect funding decisions
  
 * Compiling, Training, and Evaluating the Model
   * How many neurons, layers, and activation functions did you select for your neural network model, and why?
