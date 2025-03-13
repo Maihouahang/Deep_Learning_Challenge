@@ -32,7 +32,7 @@ This analysis is about training a deep learning model to predict whether an orga
       *  Last attempt: I thought maybe if the issue is not about adding more neurons but having more epochs. So I mixed up the numbers of neurons per layer to be different. The first layer had 50 neurons, second layer had 25 neurons, third layer had 14 neurons, and the output layer remained as 1 neuron. I increased the epochs from 100 (which was what it was for in the first and second attempt) to 300. However, even after trying all, the accuracy still was 72%.
 
 #### Summary:
-The deep learning model was able to make predictions, but it wouldn't be considered accurate enough for predicting whether an organization will receive funding or not. Even after trying to tune of many parameters, like number of layers and neurons, it was hard to get an accuracy of higher than 72%. Other models like Random Forest could work better for this type of problem. One reason why I say that is because the dataset has a lot of categorical variables (e.g., Application Type, Organization Type). Random Forest handles categorical variables better without needing as much preprocessing as deep learning.
+The deep learning model was able to make predictions, but it wouldn't be considered accurate enough for predicting whether an organization will receive funding or not. Even after trying to tune many of the parameters, like number of layers and neurons, it was hard to get an accuracy of higher than 72%. Other models like Random Forest could work better for this type of problem. One reason why I say that is because the dataset has a lot of categorical variables. Random Forest handles categorical variables better without needing as much preprocessing as deep learning.
 
 ## References:
 
